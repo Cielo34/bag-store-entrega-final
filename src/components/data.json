@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "category": "carteras",
+    "name": "mika",
+    "price": 18000,
+    "detail": "Tu cartera Mika, ideal para llevar a la playa. Para jovenes y adultas.",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1672052628/bag%20store/mika3626521-1_1_qpfyka.jpg"
+  },
+  {
+    "id": "2",
+    "category": "carteras",
+    "name": "julie",
+    "price": 17000,
+    "detail": "Tu cartera Julie, aporta seriedad para citas que van en serio",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1672052627/bag%20store/julie3599201-1_hikx6a.jpg"
+  },
+  {
+    "id": "3",
+    "category": "mochilas",
+    "name": "jeannet",
+    "price": 18900,
+    "detail": "Tu mochila jeannet, chiquita y comoda para llevarla donde quieras sin que lo notes",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1672052627/bag%20store/jeannet3373648-1_zjclmo.jpg"
+  },
+  {
+    "id": "4",
+    "category": "carteras",
+    "name": "sue",
+    "price": 16000,
+    "detail": "Tu cartera Sue, con toda la onda bohemia para salidas culturales",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1672052627/bag%20store/sue3620268-1_pslu1r.jpg"
+  },
+  {
+    "id": "5",
+    "category": "carteras",
+    "name": "araki",
+    "price": 14000,
+    "detail": "Tu cartera Araki, para las que les gusta el manga o sentirse en Odise en el espacio",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1671477775/bag%20store/araki3627849-1_wu7ix4.jpg"
+  },
+  {
+    "id": "6",
+    "category": "carteras",
+    "name": "yali",
+    "price": 15000,
+    "detail": "Tu cartera Yali, para las mas discretas",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1671477775/bag%20store/yali3621338-1_xrb4nt.jpg"
+  },
+  {
+    "id": "7",
+    "category": "mochilas",
+    "name": "irlanda",
+    "price": 15000,
+    "detail": "Tu mochila Irlanda, pequenia pero abracadora, entra todo sin que se note.",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1671479141/bag%20store/irlanda3597601-1_yp5e6z.jpg"
+  },
+  {
+    "id": "8",
+    "category": "mochilas",
+    "name": "trinidad",
+    "price": 16000,
+    "detail": "Tu mochila Trinidad, para las que les gusta llevar todo y que no les falte nada.",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1671479077/bag%20store/trinidad3616820-1_jmo2eh.jpg"
+  },
+  {
+    "id": "9",
+    "category": "mochilas",
+    "name": "julianne",
+    "price": 13000,
+    "detail": "Tu mochila Julianne, para las amantes del color blanco. Combina con todo.",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1671479069/bag%20store/julianne3598902-1_os3zig.jpg"
+  },
+  {
+    "id": "18000",
+    "category": "mochilas",
+    "name": "exotic",
+    "price": 150,
+    "detail": "Tu mochila exotic, aporta algo excentrico a tu imagen, estetica galactica.",
+    "imgUrl": "https://res.cloudinary.com/dqkq5gmcw/image/upload/v1671477773/bag%20store/exotic3626161-1_pvt53c.jpg"
+  }
+]

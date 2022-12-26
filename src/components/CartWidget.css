@@ -1,0 +1,17 @@
+.quantity {
+  background-color: rgb(255, 136, 39);
+  position: absolute;
+  top: 4.5rem;
+  right: 2rem;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  z-index: 10;
+}
+.cart-icon {
+  position: relative;
+}

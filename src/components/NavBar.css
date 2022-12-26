@@ -1,0 +1,44 @@
+.navbar-main {
+  margin-top: 3.5rem;
+  height: 7rem;
+  background-color: rgb(91, 233, 255);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  margin-top: -3rem;
+  height: 10rem;
+  margin-left: 6px;
+}
+.navlogo-container {
+  align-items: center;
+}
+.navlist {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+  width: 38rem;
+  left: 0;
+}
+.navlist-item {
+  font-size: 2rem;
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+  line-height: 3rem;
+  font-family: "raleway";
+}
+
+.navlist-container,
+.navcart-container {
+  padding: 2rem 3rem;
+}
+
+.navlist a:hover{
+  text-decoration:underline ;
+  color: rgb(205, 50, 50);
+}
