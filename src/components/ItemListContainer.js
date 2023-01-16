@@ -5,6 +5,8 @@ import { useParams } from "react-router-dom";
 import { getProducts } from "./functions";
 import ItemList from "./ItemList";
 
+
+ 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
   let { categoryId } = useParams();
@@ -16,6 +18,7 @@ const ItemListContainer = () => {
       .catch((error) => console.log(error))
       .finally(() => setLoading(false));
   }, [categoryId]);
+
 
   return (
     <>

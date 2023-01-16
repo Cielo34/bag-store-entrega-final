@@ -7,9 +7,11 @@ import {
   Heading,
   Text,
   Button,
-} from "@chakra-ui/react";
+} from "@chakra-ui/react"; 
 
 import { Link } from "react-router-dom";
+
+
 const Item = ({ product }) => {
   return (
     <Card maxW="sm">
