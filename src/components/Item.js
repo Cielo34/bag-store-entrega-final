@@ -7,10 +7,9 @@ import {
   Heading,
   Text,
   Button,
-} from "@chakra-ui/react"; 
+} from '@chakra-ui/react';
 
-import { Link } from "react-router-dom";
-
+import { Link } from 'react-router-dom';
 
 const Item = ({ product }) => {
   return (
@@ -33,9 +32,9 @@ const Item = ({ product }) => {
           Agregar
         </Button>
         <Link to={`/item/${product.id}`}>
-        <Button variant="solid" colorScheme="green">
-          Ver
-        </Button>
+          <Button variant="solid" colorScheme="green">
+            Ver
+          </Button>
         </Link>
       </CardFooter>
     </Card>

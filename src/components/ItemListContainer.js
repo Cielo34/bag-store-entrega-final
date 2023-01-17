@@ -1,12 +1,10 @@
-import "./ItemListContainer.css";
-import { Text, CircularProgress } from "@chakra-ui/react";
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { getProducts } from "./functions";
-import ItemList from "./ItemList";
+import './ItemListContainer.css';
+import { Text, CircularProgress } from '@chakra-ui/react';
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import { getProducts } from './functions';
+import ItemList from './ItemList';
 
-
- 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
   let { categoryId } = useParams();
@@ -19,11 +17,10 @@ const ItemListContainer = () => {
       .finally(() => setLoading(false));
   }, [categoryId]);
 
-
   return (
     <>
       <Text fontSize="5xl" fontWeight="bold" color="black" py="2" mb="5">
-        {categoryId ? `Producto ${categoryId}` : "Todos los productos"}
+        {categoryId ? `Producto ${categoryId}` : 'Todos los productos'}
       </Text>
       <div className="list-container">
         {loading ? (
