@@ -2,7 +2,7 @@ import "./ItemDetailContainer.css";
 import { CircularProgress, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { getProductById } from "./functions";
+import { getProductById, deleteProduct } from "./functions";
 import ItemDetail from "./ItemDetail";
 
 const ItemDetailContainer = () => {
@@ -23,7 +23,8 @@ const ItemDetailContainer = () => {
         {loading ? (
           <CircularProgress isIndeterminate color="green.300" />
         ) : product ? (
-          <ItemDetail key={product.id} product={product} />
+          <ItemDetail key={product.id} product={product} deleteProduct = {deleteProduct}/>
+         
         ) : (
           <Text fontSize="2xl">Producto no encontrado</Text>
         )}

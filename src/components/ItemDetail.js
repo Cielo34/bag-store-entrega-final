@@ -1,4 +1,4 @@
-// import ItemCount from "./ItemCount";
+
 import {
   Card,
   CardBody,
@@ -10,7 +10,20 @@ import {
   Button,
 } from "@chakra-ui/react";
 
+import {useContext} from 'react'
+
+import {CartContext} from './Cart/CartContext'
+
 const ItemDetail = ({ product }) => {
+
+
+  const { addToCart } =  useContext(CartContext)
+
+
+  const onAdd = (count) => {
+    addToCart(product.id, count)
+  }
+
   return (
     <>
       <Card
@@ -40,13 +53,27 @@ const ItemDetail = ({ product }) => {
           </CardBody>
 
           <CardFooter p="10">
-            <Button variant="solid" colorScheme="pink">
+            <Button variant="solid" colorScheme="pink" >
               Agregar al carrito
             </Button>
+
+            <Button variant="solid" colorScheme="green" >
+              +
+            </Button>
+
+            <Button variant="solid" colorScheme="green" >
+              -
+            </Button>
+
+            <p>Cantidad: </p>
+
+
+
+
           </CardFooter>
         </Stack>
       </Card>
-      {/* <ItemCount stock={8} initial={1} /> */}
+
     </>
   );
 };

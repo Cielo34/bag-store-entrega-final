@@ -1,6 +1,8 @@
 import "./NavBar.css";
 import CartWidget from "./CartWidget";
 import { Link } from "react-router-dom";
+import { Button, Stack } from "@chakra-ui/react";
+import { BsFillBagPlusFill } from "react-icons/bs";
 
 const NavBar = () => {
   return (
@@ -14,7 +16,7 @@ const NavBar = () => {
           />
         </Link>
       </div>
-      
+
       <div className="navlist-container">
         <ul className="navlist">
           <Link to="/category/mochilas">
@@ -25,9 +27,17 @@ const NavBar = () => {
           </Link>
         </ul>
       </div>
-
+      <Link to="create" >
+        <Stack direction="row" spacing={4} align="center">
+          <Button colorScheme="pink" variant="solid">
+            <BsFillBagPlusFill />
+          </Button>
+        </Stack>
+      </Link>
       <div className="navcart-container">
+
         <CartWidget />
+
       </div>
     </nav>
   );

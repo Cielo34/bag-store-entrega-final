@@ -1,9 +1,10 @@
 import './ItemListContainer.css';
+import ItemList from './ItemList';
 import { Text, CircularProgress } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getProducts } from './functions';
-import ItemList from './ItemList';
+import { getProducts, deleteProduct } from './functions';
+
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
@@ -26,7 +27,7 @@ const ItemListContainer = () => {
         {loading ? (
           <CircularProgress isIndeterminate color="green.300" />
         ) : products.length > 0 ? (
-          <ItemList products={products} />
+          <ItemList products={products} deleteProduct = {deleteProduct}/>
         ) : (
           <Text fontSize="2xl">Productos no encontrados</Text>
         )}
